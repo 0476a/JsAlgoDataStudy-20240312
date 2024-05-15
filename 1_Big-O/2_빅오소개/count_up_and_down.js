@@ -1,4 +1,4 @@
-function countUpAndDown(n) {
+function count_up_and_down(n) {
     console.log("Going up!");
     for (var i = 0; i < n; i++) {
         console.log(i);
@@ -10,4 +10,4 @@ function countUpAndDown(n) {
     console.log("Back down. Bye!");
 }
 
-console.log(countUpAndDown(10));
+console.log(count_up_and_down(10));
