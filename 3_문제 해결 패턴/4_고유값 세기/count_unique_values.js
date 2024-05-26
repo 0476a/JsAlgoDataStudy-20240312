@@ -1,9 +1,9 @@
 /*
 * 문제(고유값 세기)
-* 정렬된 배열을 받아들이고 배열의 고유 값을 계산하는 countUniqueValues 라는 함수를 구현
+* 정렬된 배열을 받아들이고 배열의 고유 값을 계산하는 count_unique_values 라는 함수를 구현
 * 배열에는 음수가 있을 수 있지만 항상 정렬됨.
 * */
-function countUniqueValues(arr) {
+function count_unique_values(arr) {
     let first = 0;
     let second = 1;
     const returnArray = [];
@@ -34,7 +34,7 @@ function countUniqueValues(arr) {
     return returnArray.length;
 }
 
-console.log(countUniqueValues([1, 1, 1, 1, 1, 2])); // 2
-console.log(countUniqueValues([1, 2, 3, 4, 4, 4, 7, 7, 12, 12, 13])); // 7
-console.log(countUniqueValues([])); // 0
-console.log(countUniqueValues([-2, -1, -1, 0, 1])); // 4
+console.log(count_unique_values([1, 1, 1, 1, 1, 2])); // 2
+console.log(count_unique_values([1, 2, 3, 4, 4, 4, 7, 7, 12, 12, 13])); // 7
+console.log(count_unique_values([])); // 0
+console.log(count_unique_values([-2, -1, -1, 0, 1])); // 4
