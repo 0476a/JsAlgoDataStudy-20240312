@@ -4,3 +4,5 @@ function factorial(num) {
 }
 
 console.log(factorial(4));
+
+// 출력 : 24

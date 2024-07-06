@@ -18,3 +18,5 @@ countDown(3);
 //     }
 //     console.log("All done!")
 // }
+
+// 출력 : 3 2 1 All done!
