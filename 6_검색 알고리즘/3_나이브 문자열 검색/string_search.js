@@ -13,4 +13,4 @@ function naviveSearch(long, short) {
     return count;
 }
 
-console.log(naviveSearch("loreie loled", "lol"));
+console.log(naviveSearch("loreie loled", "lol")); // 1
